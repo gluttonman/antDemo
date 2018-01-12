@@ -1,0 +1,17 @@
+.ant-layout-content-back .login-form {
+    padding-top: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.ant-layout-content-back .login-form-forgot {
+   float: right;
+}
+
+.ant-layout-content-back .login-form-button {
+    width: 100%;
+}
+
+.ant-layout-content-back .ant-checkbox-wrapper{
+    float: left;
+}
