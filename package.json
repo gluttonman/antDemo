@@ -6,6 +6,7 @@
     "antd": "^3.1.0",
     "axios": "^0.17.1",
     "date-format": "^1.2.0",
+    "draft-js": "^0.10.4",
     "history": "^4.7.2",
     "proptypes": "^1.1.0",
     "react": "^16.2.0",

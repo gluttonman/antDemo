@@ -3,7 +3,6 @@
 /**
  * Created by Lijun on 2018/1/9.
  */
-import "../css/bootstrap.css"
 import React, {Component} from "react"
 import {Table,Layout, Form, Input, Select, Button,Modal} from "antd"
 import axios from "axios"

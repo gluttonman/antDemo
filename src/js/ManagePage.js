@@ -8,6 +8,7 @@ import {Route, Link} from "react-router-dom"
 import HdPage from "./HdPage"
 import TopicPage from "./TopicPage"
 import ArticlePage from "./ArticlePage"
+import ArticleEdit from "./ArticleEdit"
 import RoleMenu from "./RoleMenu"
 const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
@@ -77,6 +78,7 @@ class ManagePage extends Component {
                     <Layout>
                         <Route path="/yx/manage/hdPage" component={HdPage}/>
                         <Route path="/yx/manage/articlePage" component={ArticlePage}/>
+                        <Route path="/yx/manage/editArticle" component={ArticleEdit}/>
                         <Route path="/yx/manage/topicPage" component={TopicPage}/>
                         <Route path="/yx/manage/roleMenu" component={RoleMenu}/>
                     </Layout>
