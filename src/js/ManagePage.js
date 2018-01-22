@@ -9,6 +9,7 @@ import HdPage from "./HdPage"
 import TopicPage from "./TopicPage"
 import ArticlePage from "./ArticlePage"
 import ArticleEdit from "./ArticleEdit"
+import PDFView from "./PdfView"
 import RoleMenu from "./RoleMenu"
 const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
@@ -52,14 +53,14 @@ class ManagePage extends Component {
                                 key="sub1"
                                 title={<span><Icon type="user" /><span>教学研究</span></span>}
                             >
-                                <Menu.Item key="3">
+                                <Menu.Item key="1">
                                     <Link to="/yx/manage/hdPage">我的活动</Link>
                                 </Menu.Item>
                                 <Menu.Item key="4">
                                     <Link to="/yx/manage/articlePage">我的文章</Link>
                                 </Menu.Item>
                                 <Menu.Item key="5">
-                                    <Link to="/yx/manage/topicPage">我的专题</Link>
+                                    <Link to="/yx/manage/resource">我的资源</Link>
                                 </Menu.Item>
                                 <Menu.Item key="6">
                                     <Link to="/yx/manage/roleMenu">角色管理</Link>
@@ -69,8 +70,8 @@ class ManagePage extends Component {
                                 key="sub2"
                                 title={<span><Icon type="team" /><span>我的小组</span></span>}
                             >
-                                <Menu.Item key="6">Team 1</Menu.Item>
-                                <Menu.Item key="8">Team 2</Menu.Item>
+                                <Menu.Item key="9">Team 1</Menu.Item>
+                                <Menu.Item key="10">Team 2</Menu.Item>
                             </SubMenu>
 
                         </Menu>
@@ -81,6 +82,7 @@ class ManagePage extends Component {
                         <Route path="/yx/manage/editArticle" component={ArticleEdit}/>
                         <Route path="/yx/manage/topicPage" component={TopicPage}/>
                         <Route path="/yx/manage/roleMenu" component={RoleMenu}/>
+                        <Route path="/yx/manage/resource" component={PDFView}/>
                     </Layout>
                 </Layout>
             </Layout>
